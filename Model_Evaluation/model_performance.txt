@@ -1,0 +1,26 @@
+Model : RandomForestClassifier(max_depth=15, min_samples_leaf=10, min_samples_split=6,
+                       n_estimators=150)
+
+            ********** Train Results **********
+
+                          precision    recall  f1-score   support
+
+           0       0.94      0.91      0.93      1702
+           1       0.94      0.96      0.95      2575
+
+    accuracy                           0.94      4277
+   macro avg       0.94      0.94      0.94      4277
+weighted avg       0.94      0.94      0.94      4277
+
+
+
+            ********** Test Results **********
+
+                          precision    recall  f1-score   support
+
+           0       0.93      0.91      0.92       457
+           1       0.93      0.95      0.94       613
+
+    accuracy                           0.93      1070
+   macro avg       0.93      0.93      0.93      1070
+weighted avg       0.93      0.93      0.93      1070
